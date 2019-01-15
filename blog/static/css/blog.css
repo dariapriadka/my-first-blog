@@ -10,7 +10,7 @@ body{
     padding: 0;
     width: 40%;
     font-family: 'Philosopher';
-    font-size: 50px;
+    font-size: 48px;
 }
 .header{
     height: 150px;
@@ -21,12 +21,7 @@ body{
     border-bottom: 2px;
     border-bottom-color: dodgerblue;
     border-bottom-style: solid;
-}
-
-.main_content{
-    display:inline-block;
-    width:60%;
-    float:right;
+    text-decoration: none;
 }
 
 .date
@@ -68,4 +63,43 @@ body{
 .post{
     margin-left:30px;
     width:60%;
+}
+
+.plus:link, .plus:visited,.plus:active,.plus:focus{
+    padding:18px;
+    display:inline-flex;
+    text-decoration: none;
+    font-size: 20px;
+    float: right;
+    margin-top: 6.4%;
+    margin-left:4%;
+    height:30px;
+    font-family: "Philosopher";
+    color:darkslategray;
+    height:30px;
+    background-color: azure;
+}
+.plus:hover{
+    color:darkslategray;
+    font-size: 22px;
+    height:30px;
+    background-color: azure;
+}
+
+.save {
+    font-family: "Philosopher";
+    font-size:18px;
+    width:150px;
+    margin-left: 192px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: dodgerblueplus;
+    transition: 0.2s;
+} 
+a.button7:hover { background: rgb(53, 167, 110); }
+a.button7:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
 }

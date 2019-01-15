@@ -14,12 +14,15 @@
 <script type="text/javascript">
 	jQuery(document).ready(function() {
 		jQuery(".eTimer").eTimer({
-			etType: 0, etDate: "31.01.2019.10.0", etTitleText: "", etTitleSize: 20, etShowSign: 1, etSep: ":", etFontFamily: "Verdana", etTextColor: "white", etPaddingTB: 15, etPaddingLR: 15, etBackground: "transparent", etBorderSize: 0, etBorderRadius: 0, etBorderColor: "white", etShadow: " 0px 0px 0px 0px #333333", etLastUnit: 4, etNumberFontFamily: "Arial", etNumberSize: 52, etNumberColor: "white", etNumberPaddingTB: 0, etNumberPaddingLR: 8, etNumberBackground: "transparent", etNumberBorderSize: 0, etNumberBorderRadius: 5, etNumberBorderColor: "white", etNumberShadow: "inset 0px 0px 0px 0px rgba(0, 0, 0, 0.5)"
+			etType: 0, etDate: "31.01.2019.10.0", etTitleText: "", etTitleSize: 14, etShowSign: 1, etSep: ":", etFontFamily: "Verdana", etTextColor: "white", etPaddingTB: 15, etPaddingLR: 1, etBackground: "transparent", etBorderSize: 0, etBorderRadius: 0, etBorderColor: "white", etShadow: " 0px 0px 0px 0px #333333", etLastUnit: 4, etNumberFontFamily: "Arial", etNumberSize: 48, etNumberColor: "white", etNumberPaddingTB: 0, etNumberPaddingLR: 8, etNumberBackground: "transparent", etNumberBorderSize: 0, etNumberBorderRadius: 5, etNumberBorderColor: "white", etNumberShadow: "inset 0px 0px 0px 0px rgba(0, 0, 0, 0.5)"
 		});
 	});
 </script>
 <div class="eTimer"></div>
+{% if user.is_authenticated %}
+<a href="{% url 'post_new' %}" class="plus">✚ Добавить запись </a>
         </div>
+{% endif %}
     <div class="post">
         {% block content %}
         {% endblock %}
