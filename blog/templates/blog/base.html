@@ -1,0 +1,29 @@
+
+{% load static %}
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Philosopher&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+        <title>Отдыхаем</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1 class="head1">До вылета осталось: </h1>
+            <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://e-timer.ru/js/etimer.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+		jQuery(".eTimer").eTimer({
+			etType: 0, etDate: "31.01.2019.10.0", etTitleText: "", etTitleSize: 20, etShowSign: 1, etSep: ":", etFontFamily: "Verdana", etTextColor: "white", etPaddingTB: 15, etPaddingLR: 15, etBackground: "transparent", etBorderSize: 0, etBorderRadius: 0, etBorderColor: "white", etShadow: " 0px 0px 0px 0px #333333", etLastUnit: 4, etNumberFontFamily: "Arial", etNumberSize: 52, etNumberColor: "white", etNumberPaddingTB: 0, etNumberPaddingLR: 8, etNumberBackground: "transparent", etNumberBorderSize: 0, etNumberBorderRadius: 5, etNumberBorderColor: "white", etNumberShadow: "inset 0px 0px 0px 0px rgba(0, 0, 0, 0.5)"
+		});
+	});
+</script>
+<div class="eTimer"></div>
+        </div>
+    <div class="post">
+        {% block content %}
+        {% endblock %}
+    </div>
+        
+    </body>
+</html>

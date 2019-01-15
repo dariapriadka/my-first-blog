@@ -1,0 +1,71 @@
+body{
+    font-family: 'Georgia';
+    color:darkslategrey;
+}
+
+.head1{
+    color: white;
+    margin-left: 20px;
+    margin-top: 40px;
+    padding: 0;
+    width: 40%;
+    font-family: 'Philosopher';
+    font-size: 50px;
+}
+.header{
+    height: 150px;
+    background-image: url(back.jpg);
+    background-repeat: repeat-x;
+    margin-bottom: 20px;
+    display:flex;
+    border-bottom: 2px;
+    border-bottom-color: dodgerblue;
+    border-bottom-style: solid;
+}
+
+.main_content{
+    display:inline-block;
+    width:60%;
+    float:right;
+}
+
+.date
+{
+    margin-left: 40px;
+    color:dimgray;
+}
+
+.title_post{
+    color: darkslategray;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    text-align: center;
+    font-family: 'Philosopher';
+    font-size: 40px;
+}
+
+.post_ref{
+    color: darkslategray;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    text-align: center;
+    font-family: 'Philosopher';
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.text_post{
+    margin: 10px 10px 30px 10px;
+    padding:30px;
+    font-size:20px;
+    width:90%;
+    background: white;
+    color: darkslategray;
+}
+
+.post{
+    margin-left:30px;
+    width:60%;
+}
