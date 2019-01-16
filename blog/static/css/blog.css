@@ -55,26 +55,27 @@ body{
     margin: 10px 10px 30px 10px;
     padding:30px;
     font-size:20px;
-    width:90%;
+    width:100%;
     background: white;
     color: darkslategray;
 }
 
 .post{
     margin-left:30px;
-    width:60%;
+    width:70%;
+    display:inline-block;
 }
 
 ul{
-    width:18%;
-    margin-left: 4.4%;
+    margin-top: 7.8%;
+    margin-left: 9%;
+    width:28%;
     list-style-type:none;
-    background-color: azure;
     float:right;
-    height:92%;
+    height:10%;
 }
-ul.li{
-    border: 1px dashed darkslategrey;
+ul li{
+    list-style-type: none;
 }
 .plus:link, .plus:visited,.plus:active,.plus:focus{
     padding:18px;
@@ -82,11 +83,13 @@ ul.li{
     text-decoration: none;
     text-align: left;
     font-size: 20px;
-    float: left;
+    float: right;
     height:30px;
     font-family: "Philosopher";
     color:darkslategray;
     height:30px;
+    background-color: azure;
+    
 }
 .plus:hover{
     color:darkslategray;
@@ -111,4 +114,7 @@ a.button7:hover { background: dodgerblue; }
 a.button7:active {
   background: aliceblue;
     color: darkslategrey;
+}
+.photos{
+    display:inline-block;
 }
