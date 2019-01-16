@@ -8,18 +8,18 @@ body{
     margin-left: 20px;
     margin-top: 40px;
     padding: 0;
-    width: 40%;
+    width: 30%;
     font-family: 'Philosopher';
-    font-size: 48px;
+    font-size: 42px;
 }
 .header{
-    height: 150px;
-    background-image: url(back.jpg);
+    background-image: url(back3.jpg);
+    height: 170px;
     background-repeat: repeat-x;
     margin-bottom: 20px;
     display:flex;
-    border-bottom: 2px;
-    border-bottom-color: dodgerblue;
+    border-bottom: 1px;
+    border-bottom-color: darkslategray;
     border-bottom-style: solid;
     text-decoration: none;
 }
@@ -65,19 +65,28 @@ body{
     width:60%;
 }
 
+ul{
+    width:18%;
+    margin-left: 4.4%;
+    list-style-type:none;
+    background-color: azure;
+    float:right;
+    height:92%;
+}
+ul.li{
+    border: 1px dashed darkslategrey;
+}
 .plus:link, .plus:visited,.plus:active,.plus:focus{
     padding:18px;
-    display:inline-flex;
+    display:block;
     text-decoration: none;
+    text-align: left;
     font-size: 20px;
-    float: right;
-    margin-top: 6.4%;
-    margin-left:4%;
+    float: left;
     height:30px;
     font-family: "Philosopher";
     color:darkslategray;
     height:30px;
-    background-color: azure;
 }
 .plus:hover{
     color:darkslategray;
@@ -95,11 +104,11 @@ body{
     text-decoration: none;
     padding: 10px;
     border-radius: 3px;
-    background-color: dodgerblueplus;
+    background-color: dodgerblue;
     transition: 0.2s;
 } 
-a.button7:hover { background: rgb(53, 167, 110); }
+a.button7:hover { background: dodgerblue; }
 a.button7:active {
-  background: rgb(33,147,90);
-  box-shadow: 0 3px rgb(33,147,90) inset;
+  background: aliceblue;
+    color: darkslategrey;
 }
